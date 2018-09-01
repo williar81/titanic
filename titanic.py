@@ -1,7 +1,6 @@
 import csv
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import OneHotEncoder
 
 with open('data/titanic.csv', 'rb') as csvfile:
     titanic_reader = csv.reader(csvfile, delimiter=',', quotechar='"')
